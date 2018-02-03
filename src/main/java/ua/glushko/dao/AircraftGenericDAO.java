@@ -5,7 +5,7 @@ import ua.glushko.model.Aircraft;
 import java.util.List;
 
 /**
- * Aitcraft DAO interface
+ * Aircraft DAO interface
  * @author Mikhail Glushko
  * @version 1.0
  */

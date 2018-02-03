@@ -13,10 +13,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.12</junit.version>
-        <log4j.version>1.2.17</log4j.version>
         <java.sources.version>1.8</java.sources.version>
         <java.target.version>1.8</java.target.version>
-        <mockito.version>2.10.0</mockito.version>
     </properties>
 
     <dependencies>
@@ -25,19 +23,6 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>${mockito.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
     <build>
